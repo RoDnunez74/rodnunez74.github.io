@@ -46,7 +46,7 @@
     font-weight: 300;
 }
 
-/* Color TXT */
+/* Color text */
 
 .bio_txt_black {
     color: rgb(0, 0, 0);
@@ -55,7 +55,7 @@
     color: rgb(148, 148, 148);
 }
 
-/* TXT boxes */
+/* Text boxes padding */
 
 .box_menu_ptions {
     padding: 0px 50px 0px 0px;
@@ -69,7 +69,7 @@
     padding: 50px 50px 0px 50px;
 }
 
-/* Buttons */
+/* Buttons colors and shape */
 
 .Portfolio_button {
     border:1px solid #a9a9a9;
