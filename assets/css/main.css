@@ -25,9 +25,11 @@
     margin-bottom: 1rem;
     font-weight: 600;
 }
+
 .bio_H1_title {
     font-size: 28px;
 }
+
 .bio_H5_title {
     font-size: 14px;
 }
@@ -51,6 +53,7 @@
 .bio_txt_black {
     color: rgb(0, 0, 0);
 }
+
 .bio_txt_gray {
     color: rgb(148, 148, 148);
 }
@@ -102,9 +105,9 @@
 }
 
 .project_box {
-
         padding: 80px 0px 0px 0px;
 }
+
 .overlay {
     position: absolute;
     min-height: 100%;
@@ -113,6 +116,7 @@
     top: 0;
     background: rgba(0, 0, 0, 0.6);
 }
+
 .header .hero {
     background-image: url('img/rodrigo_nunez.png');
     
@@ -124,19 +128,23 @@
 	transform: translate(-50%, -55%);
 	text-align: center;
 }
+
 .description h1 {
 	color: #ffffff;
 }
+
 .description p {
 	color: rgb(227, 227, 227);
 	font-size: 1.3rem;
 	line-height: 1.5;
 }
+
 .page-footer {
     background-color: #222;
     color: #ccc;
     padding: 15px 0 5px;
 }
+
 .footer-copyright {
     color: #666;
     padding: 5px 0;
