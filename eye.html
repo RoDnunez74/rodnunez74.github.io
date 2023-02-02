@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+    <script src="assets/js/main.js"></script>
+
+  </head>
+  <body>
+    <!-- Menu -->
+    <nav class="navbar fixed-top bg-light">
+        <div class="container-fluid">
+            
+                <a class="navbar-brand" href="./index.html"><img src="assets/img/briefcase.svg" alt="MyPortfolio" width="30" height="24">  MyPortfolio       </a>
+            
+                <ul class="nav nav-pills box_menu_ptions">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-body" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./pacmen.html">PacMen</a></li>
+                          <li><a class="dropdown-item" href="./eye.html">Eye</a></li>
+                          <li><a class="dropdown-item" href="./bus.html">Bus real time tracking</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="./projects.html">Projects updates</a></li>
+                        </ul>
+                      </li>
+                   <!--  <li class="nav-item"><a href="mailto: rodnunez74@gmail.com" class="nav-link text-body">Contact</a></li> -->
+                    <li class="nav-item"><a href="https://www.linkedin.com/in/rodrigonunezdelamora/" target="_blank" class="nav-link"><img src="assets/img/linkedin.svg" alt="Linkedin" width="30" height="24"></a></li>
+                  </ul>
+        </div>
+      </nav>
+      <!-- End Menu -->
+
+      <!-- Main -->
+    
+      <header class="page-header container-fluid">
+        <div class="row">
+          <div class="col-sm-8"><img src="./assets/img/eye1.jpg"  class="img-fluid"></div>
+          <div class="col-sm-4 box_bio">
+           <div class="box_bio_bh1">
+            <p class="bio_H_title bio_H1_title">Eye</p>
+            <p class="bio_H5_title bio_txt_gray">DESCRIPTION</p>
+            <p class="bio_H5_title bio_txt_gray">Exercise</p>
+            <p class="bio_H5_title">HTML / JS / css</p>
+            <p class="bio_H5_title bio_txt_gray">EDUCATION</p>
+            <p class="bio_txt_paragraph bio_txt_paragraph_light">MiT | xPRO</p>
+            <p class="bio_H5_title bio_txt_gray">Professional Certificate in Coding:</br>Full Stack Development with MERN</p>
+            <p class="bio_txt_paragraph">
+              <!-- Button trigger modal -->
+                <a class="btn Portfolio_button Portfolio_button:hover bio_H5_title bio_txt_gray" href="https://github.com/RoDnunez74/Repositorio_08.git" role="button"><img src="assets/img/github.svg" alt="github" width="30" height="24"> View in GitHub</a>&nbsp;
+            <!-- end Video / Contact -->
+            
+             </p>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">This is me</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"  width="470" height="200"  src="https://www.youtube.com/embed/xPvFM5fjz6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+            
+            </div>
+          </div>  
+        </div>
+        <!-- <div class="overlay"></div>
+        <div class="description"> --> 
+        </div>
+
+      </header>
+
+       <!-- end Main -->
+    
+                    <!-- Modal Video  -->
+
+                    <div id="demo-modal" class="modal fade">
+                      <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                          </div>
+                      </div>
+                    </div>
+                  <!-- end Modal Video  -->
+
+       <!-- Footer-->
+       <footer class="page-footer">
+        <div class="footer-copyright text-center">© Created by Rodrigo Nuñez &copy; 2022</div>
+    </footer>
+
+      <!-- end Footer -->
+
+  </body>
+</html>

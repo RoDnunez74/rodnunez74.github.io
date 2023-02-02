@@ -1,0 +1,144 @@
+
+/* Font family Montserrat imported from Google */
+
+.font_montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .w3 {
+    font-weight: 300;
+  }
+  .w4 {
+    font-weight: 400;
+  }
+  .w5 {
+    font-weight: 500;
+  }
+  .w6 {
+    font-weight: 600;
+  }
+
+/* Fonts for H1, H2, .... H6, Paragraphs, etc.. to reuse on the entire website */
+
+.bio_H_title {
+    font-size: 18px;
+    text-justify:auto;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.bio_H1_title {
+    font-size: 28px;
+}
+.bio_H5_title {
+    font-size: 14px;
+}
+
+.bio_txt_paragraph {
+    font-size: 14px;
+    text-justify:auto;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.bio_txt_paragraph_light {
+    font-size: 14px;
+    text-justify:auto;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+/* Color TXT */
+
+.bio_txt_black {
+    color: rgb(0, 0, 0);
+}
+.bio_txt_gray {
+    color: rgb(148, 148, 148);
+}
+
+/* TXT boxes */
+
+.box_menu_ptions {
+    padding: 0px 50px 0px 0px;
+}
+
+.box_bio {
+    padding: 50px 0px 0px 0px;
+}
+
+.box_bio_bh1 {
+    padding: 50px 50px 0px 50px;
+}
+
+/* Buttons */
+
+.Portfolio_button {
+    border:1px solid #a9a9a9;
+    background:#ffffff;
+    border-radius: 0.5;
+    color:rgb(148, 148, 148);
+}
+.Portfolio_button:hover {
+	border:1px solid rgb(142, 142, 142);
+    background:rgb(197, 197, 197);
+    color:rgb(89, 89, 89);
+}
+
+/* Boostrap CSS */
+
+@media (max-width: 575.98px) {
+    .box_bio {
+        padding: 0px 0px 0px 0px;
+    }
+    .box_bio_bh1 {
+        padding: 10px 50px 0px 50px;
+    }
+}
+
+.header {
+    background-image: url('img/rodrigo_nunez.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.header .hero {
+    background-image: url('img/rodrigo_nunez.png');
+    
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #ffffff;
+}
+.description p {
+	color: rgb(227, 227, 227);
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 15px 0 5px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* modal for video */
+
+/* youtube icon color to white */
